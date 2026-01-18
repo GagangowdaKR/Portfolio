@@ -93,6 +93,9 @@ body{
     color: #0ef;
     padding-top: 10px;
 }
+.home-content .text-pos{
+    padding-top: 5px;
+}
 .home-content h1{
     font-size: 56px;
     font-weight: 700;
@@ -742,5 +745,6 @@ section{
     }
 
 }
+
 
 
