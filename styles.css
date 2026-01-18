@@ -91,7 +91,7 @@ body{
 }
 .home-content h3 span{
     color: #0ef;
-    padding: 6px;
+    padding-top: 10px;
 }
 .home-content h1{
     font-size: 56px;
@@ -742,4 +742,5 @@ section{
     }
 
 }
+
 
