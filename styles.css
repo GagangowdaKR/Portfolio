@@ -8,6 +8,7 @@
 body{
     color: #ededed;
     background: #081c29;
+    padding-top: 110px;
 }
 .header{
     position: fixed;
@@ -70,6 +71,18 @@ body{
     /* border-radius: 50%; */
     align-items: center;
     padding: 70px 10% 0;
+}
+.marquee-wrapper {
+  position: relative;
+  z-index: 90; /* below header (100), above home */
+  background: #0f172a;
+}
+
+.marquee-wrapper marquee {
+  display: block;
+  color: #00eeff;
+  font-weight: 600;
+  padding: 8px 0;
 }
 .home:hover {
     background-size: 32%;
@@ -745,6 +758,7 @@ section{
     }
 
 }
+
 
 
 
