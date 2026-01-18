@@ -70,7 +70,8 @@ body{
     background-position: 80% center;
     /* border-radius: 50%; */
     align-items: center;
-    padding: 70px 10% 0;
+    min-height: calc(100vh - 110px);
+    padding: 20px 10% 0;
 }
 .marquee-wrapper {
   position: relative;
@@ -758,6 +759,7 @@ section{
     }
 
 }
+
 
 
 
